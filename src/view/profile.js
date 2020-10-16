@@ -40,7 +40,7 @@ export default (notes) => {
           </div>
           <div class="content">
             <div class="profile">
-              <img class="profile-img" src="${user.photoURL || 'imagenes/man.png'}" alt="">
+              <img class="profile-img" src="${user.photoURL}" alt="">
               
               <label id="selectProfile" for="selectPhotoProfile" class="hide">
                 <input type="file" id="selectPhotoProfile" class="hide" accept="image/jpeg, image/png">
@@ -48,7 +48,7 @@ export default (notes) => {
             </label>
             </div>
             <div class="header_name">
-              <h2 class="name"></h2>
+              <h2 class="name">${user.displayName}</h2>
             </div>
             <div class="labels">
               <div class="label">
@@ -113,7 +113,7 @@ export default (notes) => {
     editBtn.classList.remove('hide');
   });
   btnSave.addEventListener('click', () => {
-    updateProfile();
+    updateProfile(divElemt);
     btnSave.classList.add('hide');
     btnCancel.classList.add('hide');
     editBtn.classList.remove('hide');

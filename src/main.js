@@ -34,7 +34,7 @@ const onAuth = (callback) => {
         }
       }
       if (user.emailVerified === false) {
-        console.log('email no verificado');
+        console.log('usuario logeado pero email no verificado');
       }
       // User is signed in.
     } else {
