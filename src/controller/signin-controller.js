@@ -28,6 +28,7 @@ export const signingIn = (emailLogIn, passwordLogIn) => {
 export const signInGoogle = () => {
   googleSignIn()
     .then((result) => {
+      // console.log();
       getUser(result.user.uid).then((doc) => {
         if (!doc.exists) {
           createUser(result.user.uid);
@@ -36,7 +37,12 @@ export const signInGoogle = () => {
         }
       })
         .catch(() => {
+<<<<<<< HEAD
           // console.log(error);
+=======
+          // console.log('no se actualizo');
+          // console.log();
+>>>>>>> 016936051da3ae13b44e3ca6b367209d20649c9f
         });
     });
 };
