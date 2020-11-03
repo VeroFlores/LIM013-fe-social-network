@@ -19,8 +19,6 @@ const onAuth = () => {
   firebase.auth().onAuthStateChanged((user) => {
     let route = '';
     if (user) {
-      // console.log(user);
-      // console.log('usuario logeado');
       if (user.emailVerified !== false) {
         if (window.location.hash !== '#/signIn') {
           route = window.location.hash;
@@ -31,14 +29,9 @@ const onAuth = () => {
       if (user.emailVerified === false) {
         // console.log('usuario logeado pero email no verificado');
       }
-      // User is signed in.
     } else {
-      // No user is signed in.
       route = '#/signIn';
-      // console.log(route);
-      // console.log('usuario no logeado');
     }
-    // window.location.hash = route;
     cambioVista(route);
   });
 };
