@@ -29,7 +29,9 @@ const onAuth = () => {
       if (user.emailVerified === false) {
         // console.log('usuario logeado pero email no verificado');
       }
+      // User is signed in.
     } else {
+      // No user is signed in.
       route = '#/signIn';
     }
     cambioVista(route);

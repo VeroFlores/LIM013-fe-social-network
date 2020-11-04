@@ -2722,7 +2722,7 @@ section.msg-Redes p {
 	}
 	.label-profile {
 		padding-bottom: 0px;
-		padding-top: 6rem;
+		padding-top: 0rem;
 		margin-left: 1rem;
 	}
 	.edit_btn {
@@ -2758,7 +2758,7 @@ section.msg-Redes p {
 	.photo_post_img {
 		width: 40%;
 		max-width: 40%;
-		margin: 0 14rem;
+		margin: 0 6rem;
 	}
 	.cover-home {
 		background-image: url(https://picsum.photos/480/136/?random);
@@ -2788,10 +2788,7 @@ section.msg-Redes p {
 		height: fit-content;
 	}
 	.profile-btn-editions {
-		padding: 1%;
-		/* margin-left: 8rem; */
-		top: 32rem;
-		position: absolute;
+		width:30%;
 	}
 	.divPost {
 		grid-column: span 2;
@@ -2829,7 +2826,7 @@ section.msg-Redes p {
 		margin-left: 0.5rem;
 	}
 	.post_buttom {
-		margin: 0rem 0rem 0rem 24rem;
+		margin: 0rem 0rem 0rem 18rem;
 		font-size: 150%;
 		width: 100%;
 		max-width: 100%;
@@ -2885,7 +2882,7 @@ section.msg-Redes p {
 		height: 2.5rem;
 	}
 	.all-posts-profile {
-		margin: 0rem 21rem;
+		margin: 0rem 18rem;
 	}
 	.comment-edition {
 		display: flex;

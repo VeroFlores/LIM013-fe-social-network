@@ -80,6 +80,7 @@ export default (notes, dataUser) => {
               <option value="0" style='color:#04BFBF;'>&#xf57d;</option>
               <option value="1" style='color:#04BFBF;'>&#xf023;</option>
             </select>
+            <i></i>
             <button type="button" id="bttonnewpost" class="post_buttom">
             <img class="pencil-btton-post" src="./imagenes/pencil.png" width="10%" height="auto" alt="">       
             Post</button>

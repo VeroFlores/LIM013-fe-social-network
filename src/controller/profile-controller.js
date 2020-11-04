@@ -6,10 +6,12 @@ export const signOut = () => {
   logOut()
     .then(() => {
       // console.log('Sesion cerrada');
+    })
+    .catch(() => {
+      // console.log(error);
     });
 };
 // TODO infoProfile users
-
 export const infoProfile = (divElemt) => {
   const petName = divElemt.querySelector('.name_pet');
   const aboutYou = divElemt.querySelector('.description');
@@ -19,7 +21,6 @@ export const infoProfile = (divElemt) => {
   });
 };
 // TODO update Profile users
-
 export const updateProfile = (divElemt) => {
   const nameUserProfile1 = divElemt.querySelector('.name');
   const photoProfile = divElemt.querySelector('.profile-img');

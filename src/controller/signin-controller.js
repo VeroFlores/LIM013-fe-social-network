@@ -43,7 +43,6 @@ export const signInGoogle = () => {
           createUser(result.user.uid).then(() => {
             window.location.hash = '#/home';
           });
-          console.log('crear usuario');
         } else {
           window.location.hash = '#/home';
         }
