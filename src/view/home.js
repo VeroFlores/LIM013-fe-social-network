@@ -74,7 +74,7 @@ export default (notes, dataUser) => {
             <div class="menu-post-options">
             <label for="selectImage" class="selectImage"> 
               <input type="file" id="selectImage"  name="imagensubida" class="upload" accept="image/png, .jpeg, .jpg, image/gif">
-              <img class="cam-post" src="/imagenes/camera.png" width="5%" height="auto" alt="">       
+              <img class="cam-post" src="./imagenes/camera.png" width="5%" height="auto" alt="">       
             </label>        
             <select id="privacy" class="privacy" style='color:#04BFBF; font-family:Arial, FontAwesome;'>
               <option value="0" style='color:#04BFBF;'>&#xf57d;</option>
