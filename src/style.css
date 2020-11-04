@@ -2729,8 +2729,8 @@ section.msg-Redes p {
 		width: fit-content;
 		font-size: 180%;
 		height: auto;
-		/* position: relative; */
-		margin-left: 63rem;
+		margin-left: 45rem;
+		margin-top: 2rem;
 		padding: 1%;	
 	}
 	.name {
@@ -2745,11 +2745,6 @@ section.msg-Redes p {
 	.label-profile p {
 		font-size: 150%;
 	}
-	/* .divPost {
-		padding: 0;
-		grid-column-start: 3;
-		grid-column-end: 4;
-	} */
 	.edition-section {
 		position: absolute;
 		margin-left: 30%;
@@ -2758,7 +2753,7 @@ section.msg-Redes p {
 	.photo_post_img {
 		width: 40%;
 		max-width: 40%;
-		margin: 0 6rem;
+		margin: 0 9rem;
 	}
 	.cover-home {
 		background-image: url(https://picsum.photos/480/136/?random);
